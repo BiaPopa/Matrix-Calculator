@@ -1,0 +1,35 @@
+##### Copyright 2021 Popa Bianca (biancapopa2002@gmail.com)
+   Programul citește caracterul ch și caută comanda corespunzătoare literei 
+citite sau afișează mesajul „Unrecognized command” pentru cazul în care litera
+nu corespunde niciunei comenzi. Fiecare comandă corespunde unei funcții ce va 
+fi apelată la citirea caracterului corespunzător ei.
+
+   Funcția cit_mat alocă dinamic în vectorul vec_mat o matrice pe care o citește
+de la tastatură și reține în vectorii vec_m și vec_n dimensiunile acesteia.
+
+   Funcția dimensiune afișează numărul de linii și coloane ale matricei situate 
+pe poziția index în vectorul vec_mat.
+
+   Funcția afisare afișează matricea situată pe poziția index în vectorul 
+vec_mat.
+
+   Funcția redimensionare citește de la tastatură numărul de linii și coloane 
+după care se face redimensionarea și indicii acestora, iar apoi construiește în
+variabila aux noua matrice și eliberează din memorie vechea matrice.
+
+   Funcția inmultire calculează produsul matricelor situate pe pozițiile index1,
+respectiv index2 în vectorul vec_mat. Rezultatul va fi adăugat la finalul 
+vectorului vec_mat.
+
+   Funcția sortare calculează în vectorul sum, suma elementelor fiecărei matrice
+din vectorul vec_mat modulo 10^4 + 7. Aceasta sortează matricele din vec_mat
+concomitent cu valorile calculate în sum, folosind algoritmul de sortare prin 
+interschimbare.
+
+   Funcția transpusa construiește în matricea aux_mat transpusa matricei situate
+pe poziția index în vectorul vec_mat și eliberează din memorie vechea matrice.
+
+   Funcția eliberare dezalocă matricea situată pe poziția index în vectorul 
+vec_mat.
+
+   La sfârșitul programului sunt eliberate din memorie toate resursele folosite.
